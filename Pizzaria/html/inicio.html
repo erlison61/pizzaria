@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/menu.css" />
+    <link rel="stylesheet" href="../css/carrossel.css" />
+    
+    <title>Pizzaria</title>
+  </head>
+
+  <body class="bd">
+    <!--Menu horizontal-->
+    <header>
+      <nav class="navigation">
+        <ul class="container">
+          <!--Logotipo da página-->
+          <img
+            src="https://e7.pngegg.com/pngimages/293/635/png-clipart-pizzaiole-calzone-recipe-drawing-pizza-food-recipe.png"
+            alt="logotipo da página"
+            width="90"
+          />
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="./cardapio.html">Cardápio</a>
+          </li>
+          <li>
+            <a href="./servicos.html">Serviços</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h3 class="text-center">Seja bem vindo, segue o cardápio!</h3>
+      <!--Carrossel-->
+      <div class="container2">
+        <button class="arrow-left control" aria-label="Previous image">
+          ◀
+        </button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+          <div class="gallery">
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/18/1a/d5/1e/casteloes.jpg"
+              alt="pizza salgada"
+              class="item current-item"
+            />
+            <img
+              src="https://st.depositphotos.com/2066681/2895/i/450/depositphotos_28956963-stock-photo-sweet-pizza.jpghttps://st.depositphotos.com/2066681/2895/i/450/depositphotos_28956963-stock-photo-sweet-pizza.jpg"
+              alt="pizza doce"
+              class="item current-item"
+            />
+            <img
+              src="https://s2.glbimg.com/wMQRG2vmN_dDJ-1HrSwGOKEbZak=/0x0:1080x608/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/e/n/G9IuruRaezxqgmwozOyg/capa-materia-gshow-49-.png"
+              alt="pizza com queijo cheddar"
+              class="item current-item"
+            />
+            <img
+              src="https://popveganfood.com.br/wp-content/uploads/2020/07/frango-com-cheddar-jul2020-copy-600x600.jpeg"
+              alt="pizza doce"
+              class="item current-item"
+            />
+            <img
+              src="https://www.pizzariacostadosol.com.br/assets/img/slides/slide2.jpg"
+              alt="Model Image"
+              class="item current-item"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../JS/carousel.js"></script>
+    <script src="../JS/log.js"></script>
+    <footer></footer>
+  </body>
+</html>

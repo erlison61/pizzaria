@@ -1,0 +1,68 @@
+let modelsJson = [
+  {
+    id: 1,
+    name: "CALABRESA",
+    img: "../img/calabresa.png",
+    price: [30.0, 45.0, 60.0],
+    sizes: ["M", "G", "GG"],
+    description: "Calabresa, queijo muçarela, orégano, molho de tomate.",
+  },
+  {
+    id: 2,
+    name: "FRANGO",
+    img: "../img/frango.jpg",
+    price: [25.0, 30.0, 45.0],
+    sizes: ["M", "G", "GG"],
+    description: "Frango desfiado coberta com catupiry.",
+  },
+  {
+    id: 3,
+    name: "CHOCOLATE COM MORANGO",
+    img: "../img/chocolate.jpg",
+    price: [30.0, 40.0, 50.0],
+    sizes: ["M", "G", "GG"],
+    description: "Chocolate, morango, m&m e granulado.",
+  },
+  {
+    id: 4,
+    name: "À MODA DA CASA",
+    img: "../img/modacasa.jpg",
+    price: [45.0, 50.0, 65.0],
+    sizes: ["M", "G", "GG"],
+    description:
+      "Presunto, palmito, ovos, ervilha, cebola, catupiry, mussarela e cheddar.",
+  },
+  {
+    id: 5,
+    name: "CARIOCA",
+    img: "../img/carioca.jpg",
+    price: [40.0, 50.0, 55.0],
+    sizes: ["M", "G", "GG"],
+    description: "Frango desfiado, bacon, milho, cebola e mussarela.",
+  },
+  {
+    id: 6,
+    name: "PORTUGUESA",
+    img: "../img/portuguesa.jpg",
+    price: [35.0, 45.0, 55.0],
+    sizes: ["M", "G", "GG"],
+    description: "Presunto, palmito, ovos, ervilha, cebola e mussarela.",
+  },
+  {
+    id: 7,
+    name: "CARIJÓ",
+    img: "../img/carijo.jpg",
+    price: [20.0, 30.0, 45.0],
+    sizes: ["M", "G", "GG"],
+    description:
+      "Frango desfiado, milho verde, tomate picado, ovos e mussarela.",
+  },
+  {
+    id: 8,
+    name: "ATUM",
+    img: "../img/atum.jpg",
+    price: [30.0, 45.0, 50.0],
+    sizes: ["M", "G", "GG"],
+    description: "Atum, cebola e mussarela.",
+  },
+];

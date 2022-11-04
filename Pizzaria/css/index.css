@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("http://www.estacaobrazil.com.br/pizza/wp-content/uploads/2017/03/fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: 1850px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+}
+
+h1,h2 {
+  color: white;
+}
+
+h3 {
+  background-color: orangered;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body h1 {
+  background-color: black;
+  margin: 5px;
+  margin-left: 18em;
+}
+
